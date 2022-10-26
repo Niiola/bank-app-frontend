@@ -1,0 +1,20 @@
+.custCont {
+    width: 1005;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bot{
+    padding-left: 90px;
+}
+.custCont > form {
+    display: flex;
+    flex-direction: column;
+}
+input[type] {
+    width: 100%;
+    font-size: 1em;
+    border: 1px solid rgb(218, 192, 192);
+    margin-top: 8px;
+}

@@ -1,0 +1,43 @@
+.dashCont {
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: center;
+    align-items: center;
+    
+    margin: 16px;
+}
+
+.navbar{
+    text-align: end;
+}
+.navbar2{
+    background-color: lightgray;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    margin-right: 30px;
+    margin-top: 30px;
+
+    /* border: 1px solid gainsboro */
+}
+
+.dashCont > div {
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    align-items: center;
+    border: 1px solid gainsboro
+    
+}
+.dashCont > div:hover {
+    background-color: dodgerblue;
+    color: azure;
+}
